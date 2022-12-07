@@ -1,4 +1,5 @@
-# CS536-Blogpost
+# Robust Networks: An Incentives and Optimization Perspective
+Christos Boutsikas, Rohan Garg, Blake Holman, Marios Mertzanidis, Athina Terzoglou, Paritosh Verma
 
 
 The design of computer networks has become increasingly important as the Internet has become more pervasive. In order to ensure the robustness and high performance of these networks, it is essential to consider the strategic incentives of the individuals and organizations that use them. Furthermore, it is important we analyze the underlying networks themselves and make sure that $(i)$ the network topology evenly distributes the network load between the edges and $(ii)$ that there are no local regions that are more susceptible to congestion. 
