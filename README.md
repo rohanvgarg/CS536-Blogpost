@@ -28,6 +28,7 @@ We observe that Jellyfish topology outperforms the network topology of the Inter
 
 Lastly, we show that when agents and organizations route their information across the network with strategic behavior, both network performance and welfare can suffer. This acts as evidence for the viability of Software Defined Networking (SDNs). Our approach is based on game theory, graph theory, and takes into account both strategic behavior as well as faults that can occur in the network topology. We present simulation results that demonstrate our analysis's effectiveness and discuss our work's potential applications and implications.
 
+<img width="471" alt="Screen Shot 2022-12-07 at 6 50 19 PM" src="https://user-images.githubusercontent.com/7903790/206322139-106d45bd-27c2-4443-a7b9-9ed85ec906f5.png">                    <img width="469" alt="Screen Shot 2022-12-07 at 6 50 30 PM" src="https://user-images.githubusercontent.com/7903790/206322140-b74eeece-8ebd-4389-bd07-286832bf9d3c.png">
 
 
 
