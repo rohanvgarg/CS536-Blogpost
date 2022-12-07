@@ -13,8 +13,9 @@ In this paper, we systematically analyze existing computer network topologies an
 Additionally, we study the existing network topology of the Internet and compare it to Randomly generated graphs (specifically the Jellyfish topology) to study how they compare to each other in terms of network bottleneck and load distribution. We observe that Jellyfish topology outperforms the network topology of the Internet on various robustness benchmarks and with respect to network construction cost.
 
 
+<img width="436" alt="Screen Shot 2022-12-07 at 6 11 19 PM" src="https://user-images.githubusercontent.com/7903790/206317192-b51e0b89-b3ed-40a8-9bcc-cb40115d827a.png">
 
-![Maximum_Edge_Load](https://user-images.githubusercontent.com/7903790/206316531-d0be97f8-193c-4f42-a815-d56aac4ea174.png)
+
 
 
 
