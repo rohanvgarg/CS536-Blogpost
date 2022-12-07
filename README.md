@@ -7,7 +7,7 @@ In this paper, we systematically analyze existing computer network topologies an
 
 Here is an example of a Randomly Generated Geometric Graph:
 
-<img width="200" alt="Screen Shot 2022-12-07 at 6 13 07 PM" src="https://user-images.githubusercontent.com/7903790/206318850-f9a04f30-fd72-4dfe-9415-31c01742c994.png"><img width="300" alt="Screen Shot 2022-12-07 at 6 13 14 PM" src="https://user-images.githubusercontent.com/7903790/206318851-140ca828-8455-43ce-9f5e-7ce61ebd931b.png">
+<img width="300" alt="Screen Shot 2022-12-07 at 6 13 07 PM" src="https://user-images.githubusercontent.com/7903790/206318850-f9a04f30-fd72-4dfe-9415-31c01742c994.png"><img width="300" alt="Screen Shot 2022-12-07 at 6 13 14 PM" src="https://user-images.githubusercontent.com/7903790/206318851-140ca828-8455-43ce-9f5e-7ce61ebd931b.png">
 
 
 We then study the existing network topology of the Internet and compare it to Randomly generated graphs (specifically the Jellyfish topology) to study how they compare to each other in terms of network bottleneck and load distribution. These topologies are 
