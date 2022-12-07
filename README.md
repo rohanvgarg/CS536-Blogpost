@@ -1,7 +1,9 @@
 # CS536-Blogpost
-The design of computer networks has become increasingly important as the Internet has become more pervasive. In order to ensure the robustness and high performance of these networks, it is essential to consider the strategic incentives of the individuals and organizations that use them. Furthermore, it is important we analyze the underlying networks themselves and make sure that $(i)$ the network topology evenly distributes the network load between the edges and $(ii)$ that there are no local regions that are more susceptible to congestion.
 
-In this paper, we systematically analyze existing computer network topologies and routing schemes to empirically and theoretically evaluate their robustness to congestion and strategic behavior. We study the role of \textit{expander graphs} and show that their theoretical guarantees provide a way of designing networks that have few connection bottlenecks. 
+
+The design of computer networks has become increasingly important as the Internet has become more pervasive. In order to ensure the robustness and high performance of these networks, it is essential to consider the strategic incentives of the individuals and organizations that use them. Furthermore, it is important we analyze the underlying networks themselves and make sure that $(i)$ the network topology evenly distributes the network load between the edges and $(ii)$ that there are no local regions that are more susceptible to congestion. 
+
+In this paper, we systematically analyze existing computer network topologies and routing schemes to empirically and theoretically evaluate their robustness to congestion and strategic behavior. First, we study the role of \textit{expander graphs} and show that their theoretical guarantees provide a way of designing networks that have few connection bottlenecks. 
 
 Here is an example of a Randomly Generated Geometric Graph:
 
@@ -10,15 +12,15 @@ Here is an example of a Randomly Generated Geometric Graph:
 <img width="319" alt="Screen Shot 2022-12-07 at 6 13 14 PM" src="https://user-images.githubusercontent.com/7903790/206318851-140ca828-8455-43ce-9f5e-7ce61ebd931b.png">
 
 
+We then study the existing network topology of the Internet and compare it to Randomly generated graphs (specifically the Jellyfish topology) to study how they compare to each other in terms of network bottleneck and load distribution. These topologies are 
 
-Additionally, we study the existing network topology of the Internet and compare it to Randomly generated graphs (specifically the Jellyfish topology) to study how they compare to each other in terms of network bottleneck and load distribution. We observe that Jellyfish topology outperforms the network topology of the Internet on various robustness benchmarks and with respect to network construction cost.
 
 Here we show our two topologies we tested for congestion: Internet AS Topology and Jellyfish Topology
 
 <img width="310" alt="Screen Shot 2022-12-07 at 6 12 50 PM" src="https://user-images.githubusercontent.com/7903790/206318847-cc8c36ef-9140-4c7a-81bb-889de39f1848.png">
 <img width="318" alt="Screen Shot 2022-12-07 at 6 12 59 PM" src="https://user-images.githubusercontent.com/7903790/206318849-ec6a52e0-c0ee-4589-91db-57d206d3e465.png">
 
-Here we show our results for the metrics of Cheeger Constant, Network Resources and, under All-Pairs-Shortest-Paths Routing, Maximum Edge Load and Network Disbalance.
+We observe that Jellyfish topology outperforms the network topology of the Internet on various robustness benchmarks and with respect to network construction cost. The plots below show that (i) the jellyfish topology has lesser network bottlenecks, maximum edge load, and the edge load distribution is much more balanced the the Internet AS topology, despite this, (ii) the cost of constructing the jellyfish topology (i.e., network resources it uses) are approximately equal to the cost of constructing the Internet AS topology. Therefore, despite using similar resources, jellyfish topology outperforms the Internet AS topology. Here we show our results for the metrics of Cheeger Constant, Network Resources and, under All-Pairs-Shortest-Paths Routing, Maximum Edge Load and Network Disbalance.
 
 
 <img width="300" alt="Screen Shot 2022-12-07 at 6 13 28 PM" src="https://user-images.githubusercontent.com/7903790/206318852-5f1c7258-a9b3-4f88-a21f-a111279e6843.png">
