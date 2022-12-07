@@ -5,7 +5,7 @@ In this paper, we systematically analyze existing computer network topologies an
 
 Here is an example of a Randomly Generated Geometric Graph:
 
-<img width="300" alt="Screen Shot 2022-12-07 at 6 13 28 PM" src="https://user-images.githubusercontent.com/7903790/206318852-5f1c7258-a9b3-4f88-a21f-a111279e6843.png">
+<img width="288" alt="Screen Shot 2022-12-07 at 6 13 07 PM" src="https://user-images.githubusercontent.com/7903790/206318850-f9a04f30-fd72-4dfe-9415-31c01742c994.png">
 
 <img width="319" alt="Screen Shot 2022-12-07 at 6 13 14 PM" src="https://user-images.githubusercontent.com/7903790/206318851-140ca828-8455-43ce-9f5e-7ce61ebd931b.png">
 
@@ -21,8 +21,7 @@ Here we show our two topologies we tested for congestion: Internet AS Topology a
 Here we show our results for the metrics of Cheeger Constant, Network Resources and, under All-Pairs-Shortest-Paths Routing, Maximum Edge Load and Network Disbalance.
 
 
-<img width="436" alt="Screen Shot 2022-12-07 at 6 11 19 PM" src="https://user-images.githubusercontent.com/7903790/206318845-62bd4d8b-6b60-431a-a761-6cd6870d6380.png">
-<img width="288" alt="Screen Shot 2022-12-07 at 6 13 07 PM" src="https://user-images.githubusercontent.com/7903790/206318850-f9a04f30-fd72-4dfe-9415-31c01742c994.png">
+<img width="300" alt="Screen Shot 2022-12-07 at 6 13 28 PM" src="https://user-images.githubusercontent.com/7903790/206318852-5f1c7258-a9b3-4f88-a21f-a111279e6843.png">
 <img width="307" alt="Screen Shot 2022-12-07 at 6 13 35 PM" src="https://user-images.githubusercontent.com/7903790/206318854-d2ddd433-a5ea-465e-ad93-0fc7c4027ac2.png">
 <img width="306" alt="Screen Shot 2022-12-07 at 6 13 53 PM" src="https://user-images.githubusercontent.com/7903790/206318855-509a9c17-a416-4d50-a114-ec867d2c1090.png">
 <img width="302" alt="Screen Shot 2022-12-07 at 6 14 03 PM" src="https://user-images.githubusercontent.com/7903790/206318856-b9b4e222-da9f-455e-a64d-7b03f2a29f67.png">
