@@ -9,6 +9,7 @@ In this paper, we systematically analyze existing computer network topologies an
 To understand the robustness of realistic networks, we measure the extent to which they are expanders by simulated them with random graphs. Random Geometric Graphs are commonly used to simulate real-world networks:
 
 <img width="300" alt="Screen Shot 2022-12-07 at 6 13 07 PM" src="https://user-images.githubusercontent.com/7903790/206318850-f9a04f30-fd72-4dfe-9415-31c01742c994.png">                       <img width="300" alt="Screen Shot 2022-12-07 at 6 13 14 PM" src="https://user-images.githubusercontent.com/7903790/206318851-140ca828-8455-43ce-9f5e-7ce61ebd931b.png">
+
 In the end, we opted for the more general Waxman random graph, which has be emperically shown better represent typical networks. We ran experiments to show the extent to which Waxman graphs are good expanders. Lastly, we examined a large network dataset and showed that the network is a 0.01-expander.
 
 We then study the existing network topology of the Internet and compare it to Randomly generated graphs (specifically the Jellyfish topology) to study how they compare to each other in terms of network bottleneck and load distribution. These topologies are 
