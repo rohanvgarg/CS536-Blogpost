@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Garg, Verma, Boutsikas, Holman, Terzoglou, Mertzanidis
+    given-names: Rohan, Paritosh, Christos, Blake, Athina, Marios
+title: "Purdue CS536 - Fall 2022, Robust Networks Project"
+version: 2.0.4
+date-released: 2022-12-07
