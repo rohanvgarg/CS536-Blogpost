@@ -4,7 +4,7 @@ Christos Boutsikas, Rohan Garg, Blake Holman, Marios Mertzanidis, Athina Terzogl
 
 The design of computer networks has become increasingly important as the Internet has become more pervasive. In order to ensure the robustness and high performance of these networks, it is essential to consider the strategic incentives of the individuals and organizations that use them. Furthermore, it is important we analyze the underlying networks themselves and make sure that $(i)$ the network topology evenly distributes the network load between the edges and $(ii)$ that there are no local regions that are more susceptible to congestion. 
 
-In this paper, we systematically analyze existing computer network topologies and routing schemes to empirically and theoretically evaluate their robustness to congestion and strategic behavior. First, we study the role of \textit{expander graphs} and show that their theoretical guarantees provide a way of designing networks that have few connection bottlenecks. 
+In this paper, we systematically analyze existing computer network topologies and routing schemes to empirically and theoretically evaluate their robustness to congestion and strategic behavior. First, we study the role of expander graphs and show that their theoretical guarantees provide a way of designing networks that have few connection bottlenecks. 
 
 To understand the robustness of realistic networks, we measure the extent to which they are expanders by simulated them with random graphs. Random Geometric Graphs are commonly used to simulate real-world networks:
 
