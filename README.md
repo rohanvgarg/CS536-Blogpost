@@ -4,13 +4,17 @@ Christos Boutsikas, Rohan Garg, Blake Holman, Marios Mertzanidis, Athina Terzogl
 
 The design of computer networks has become increasingly important as the Internet has become more pervasive. In order to ensure the robustness and high performance of these networks, it is essential to consider the strategic incentives of the individuals and organizations that use them. Furthermore, it is important we analyze the underlying networks themselves and make sure that $(i)$ the network topology evenly distributes the network load between the edges and $(ii)$ that there are no local regions that are more susceptible to congestion. 
 
-In this paper, we systematically analyze existing computer network topologies and routing schemes to empirically and theoretically evaluate their robustness to congestion and strategic behavior. First, we study the role of \textit{expander graphs} and show that their theoretical guarantees provide a way of designing networks that have few connection bottlenecks. 
+In this paper, we systematically analyze existing computer network topologies and routing schemes to empirically and theoretically evaluate their robustness to congestion and strategic behavior. 
 
-To understand the robustness of realistic networks, we measure the extent to which they are expanders by simulated them with random graphs. Random Geometric Graphs are commonly used to simulate real-world networks:
+## Part I: Networks and Expander Graphs
+
+First, we study the role of \textit{expander graphs} and show that their theoretical guarantees provide a way of designing networks that have few connection bottlenecks. To understand the robustness of realistic networks, we measure the extent to which they are expanders by simulated them with random graphs. Random Geometric Graphs are commonly used to simulate real-world networks:
 
 <img width="300" alt="Screen Shot 2022-12-07 at 6 13 07 PM" src="https://user-images.githubusercontent.com/7903790/206318850-f9a04f30-fd72-4dfe-9415-31c01742c994.png">                       <img width="300" alt="Screen Shot 2022-12-07 at 6 13 14 PM" src="https://user-images.githubusercontent.com/7903790/206318851-140ca828-8455-43ce-9f5e-7ce61ebd931b.png">
 
 In the end, we opted for the more general Waxman random graph, which has be emperically shown better represent typical networks. We ran experiments to show the extent to which Waxman graphs are good expanders. Lastly, we examined a large network dataset and showed that the network is a 0.01-expander.
+
+## Part II: Comparing Internet AS topology and Jellyfish Topology
 
 We then study the existing network topology of the Internet and compare it to Randomly generated graphs (specifically the Jellyfish topology) to study how they compare to each other in terms of network bottleneck and load distribution. These topologies are 
 
@@ -26,6 +30,8 @@ We observe that Jellyfish topology outperforms the network topology of the Inter
 
 <img width="300" alt="Screen Shot 2022-12-07 at 6 13 53 PM" src="https://user-images.githubusercontent.com/7903790/206318855-509a9c17-a416-4d50-a114-ec867d2c1090.png">                    <img width="300" alt="Screen Shot 2022-12-07 at 6 14 03 PM" src="https://user-images.githubusercontent.com/7903790/206318856-b9b4e222-da9f-455e-a64d-7b03f2a29f67.png">
 
+
+## Part III: Stragetic Behavior and Network Routing
 
 Lastly, we examine the effects of strategic behavior in network routing.  There are well-known theoretical results that show that the congestion in strategic routing instances is significantly larger that the congestion created by optimal routing. We recreated two of these instances (namely Braess's Paradox,  and Pigou's example) and through experiments, we concluded that the congestion created due to strategic behavior closely approximates optimal routing. We believe that the discrepancies between experimental and theoretical results are due to the fact that theoretical results do not take into consideration many real-life constraints (queueing delays, packet sizes, ARP packets). Our approach is based on game theory, graph theory, and takes into account both strategic behavior as well as faults that can occur in the network topology. We present simulation results that demonstrate our analysis's effectiveness and discuss our work's potential applications and implications.
 
