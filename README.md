@@ -12,7 +12,7 @@ To understand the robustness of realistic networks, we measure the extent to whi
 
 In the end, we opted for the more general Waxman random graph, which has be emperically shown better represent typical networks. We ran experiments to show the extent to which Waxman graphs are good expanders. Lastly, we examined a large network dataset and showed that the network is a 0.01-expander.
 
-We then study the existing network topology of the Internet and compare it to Randomly generated graphs (specifically the Jellyfish topology) to study how they compare to each other in terms of network bottleneck and load distribution. These topologies are 
+We then study the existing network topology of the Internet and compare it to Randomly generated graphs (specifically the Jellyfish topology) to study how they compare to each other in terms of network bottleneck and load distribution. 
 
 
 Here we show our two topologies we tested for congestion: Internet AS Topology and Jellyfish Topology
